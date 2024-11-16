@@ -37,5 +37,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+#Add UDFPS customizations
+TARGET_HAS_UDFPS := true
+
 PRODUCT_PACKAGES += \
     sensors.a52sxq
