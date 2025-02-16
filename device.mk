@@ -39,3 +39,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     sensors.a52sxq
+
+#Add UDFPS customizations
+TARGET_HAS_UDFPS := true
+
